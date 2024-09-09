@@ -1,67 +1,58 @@
-# Astro + React + Tailwind
+# Frontend Mentor - Time tracking dashboard solution
 
-## 🔍 Overview
+This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Here you will find a template to create an `Astro` project that uses `React` and `Tailwind`. Also it has `eslint` and `prettier` configured.
+## Table of contents
 
-Run the following command to create a project with the template:
+- [Frontend Mentor - Time tracking dashboard solution](#frontend-mentor---time-tracking-dashboard-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Installation](#installation)
+    - [Install dependencies](#install-dependencies)
+    - [Run Application](#run-application)
 
-```sh
-npm create astro@latest <project-name> -- --template evertzner/astro-react-tailwind-template --yes
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Switch between viewing Daily, Weekly, and Monthly stats
+
+### Screenshot
+
+![Screenshot](./screenshots/image.png)
+
+### Links
+
+- Solution URL: [Repo](https://github.com/evertzner/time-tracking-dashboard)
+- Live Site URL: [Pomodoro App Site](https://pomodoro-esteban-vertzner.netlify.app/)
+
+## My process
+
+### Built with
+
+- Astro
+- Tailwind
+- React
+
+## Installation
+
+### Install dependencies
+
+```bash
+npm install
 ```
 
-## 🚀 Project Structure
+### Run Application
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── .husky/
-│   └── _pre-commit
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Main.tsx
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│   │   └── index.astro
-│   └── styles.css
-└── .gitignore
-└── .prettierrc
-└── .prettierrc.mjs
-└── astro.config.mjs
-└── eslint.config.js
-└── package.json
-└── tailwind.config.mjs
-└── tsconfig.json
+```bash
+npm run dev
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command           | Action                                       |
-| :---------------- | :------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:4321`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
-| `npm run format`  | Format the document using Prettier           |
-| `npm run check`   | Check types using `astro check`              |
-| `npm run lint`    | Check linting and format                     |
-
-## Husky
-
-To initiate husky run the following command.
-
-```sh
-npx husky init
-```
-
-Replace `pre-commit` file content with content from `_pre-commit`
