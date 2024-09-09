@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repo](https://github.com/evertzner/time-tracking-dashboard)
-- Live Site URL: [Pomodoro App Site](https://pomodoro-esteban-vertzner.netlify.app/)
+- Live Site URL: [Pomodoro App Site](https://time-tracking-esbteban-vertzner.netlify.app/)
 
 ## My process
 
